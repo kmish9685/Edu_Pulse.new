@@ -13,7 +13,6 @@ export default function LandingPage() {
         <div className="hidden md:flex items-center gap-6 text-sm text-gray-400">
           <a href="#how-it-works" className="hover:text-white transition-colors">How it works</a>
           <a href="#features" className="hover:text-white transition-colors">Features</a>
-          <a href="#pricing" className="hover:text-white transition-colors">Pricing</a>
         </div>
         <div className="flex items-center gap-4">
           <Link href="/educator">
@@ -49,7 +48,7 @@ export default function LandingPage() {
           </p>
 
           <div className="flex items-center justify-center gap-4 pt-4 animate-in fade-in slide-in-from-bottom-10">
-            <Link href="/educator">
+            <Link href="/educator/new">
               <Button size="lg" className="rounded-full text-lg h-14 px-8">
                 Start Live Session <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
@@ -62,7 +61,7 @@ export default function LandingPage() {
       </section>
 
       {/* Stats/Mockup Section */}
-      <section className="px-4 md:px-8 pb-32">
+      <section id="features" className="px-4 md:px-8 pb-32">
         <div className="max-w-6xl mx-auto rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl overflow-hidden shadow-2xl shadow-blue-900/20 relative">
           <div className="absolute top-0 w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
 
